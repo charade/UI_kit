@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    padding-top : 30%;
+}
+
+button{
+    margin-right : .5%;
+    height : 80px;
+    width : 240px;
+    font-size : 3rem;
+}
+
+button:first-child{
+    border-radius: 40px 40px 40px 40px;
+    border : 2px solid silver;
+    font-weight: 400;
+    color : rgba(119, 116, 116, 0.918);
+}
+
+button:nth-child(2){
+    background-color: rgba(0, 255, 128, 0.801);
+    border: none;
+    border-radius : 8px 8px 8px 8px;
+    color : white;
+    font-weight: normal;
+}
+
+button:nth-child(3){
+    background-color: rgba(66, 66, 133, 0.973);
+    border: none;
+    border-radius : 8px 8px 8px 8px;
+    color : white;
+    font-weight: 700;
+}

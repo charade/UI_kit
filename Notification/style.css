@@ -1,0 +1,96 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin : 0;
+    background-color: white;
+}
+
+body > p{
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.774);
+    font-family: Arial,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans' , sans-serif;
+}
+p img{
+    max-width : 45px;
+    vertical-align: -.4cm; 
+    margin-left: 3%;
+}
+
+span{
+    color : rgba(17, 0, 255, 0.76);
+}
+
+body > div{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin : 3%;
+    position:relative;
+    /* border : thin solid rgba(0, 0, 0, 0.89);  */
+}
+
+body > div:nth-of-type(1){
+    box-shadow: 0 0 10px rgb(14, 1, 1);
+    
+}
+
+body > div:nth-of-type(2){
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.884);
+}
+
+figure{
+    display: flex;
+}
+
+figure > img{
+    max-width: 99px;
+    border-radius: 50%;
+    margin-right : 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.822);
+    border: thin solid white;
+}
+
+
+figcaption h2{
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.623);
+} 
+
+figcaption p{
+    font-size: 1.7rem;
+    color : rgba(0, 0, 0, 0.795)
+}
+
+div div{
+    position:absolute;
+    top : 20%;
+    right : 1%;
+}
+
+button{
+    margin-top: 6%;
+    font-size: 2.3rem;
+    width : 13rem;
+    color : rgba(0, 0, 0, 0.473);
+    border: none;
+    background-color: white;
+}
+
+button img{
+    opacity : .5;
+}
+
+button:first-child img{
+    max-width : 33px;
+    margin-left : -2%;
+    vertical-align: -.2cm ;
+}
+
+button:nth-child(2) img{
+    max-width : 18px;
+    margin-left : 5%;
+    vertical-align: -.08cm ;
+}

@@ -1,0 +1,28 @@
+body{
+    padding-top : 20%;
+}
+
+div{
+    /* background-color: rgba(0, 0, 0, 0.952); */
+    padding-left : 35%;
+}
+
+img{
+    border : 2px solid  rgba(255, 255, 255, 0.527);
+    box-shadow: 0 0 10px  black;
+    margin-right: .5%;
+}
+
+img:nth-child(1),img:nth-child(2), img:nth-child(3){ 
+    max-width : 80px;
+    border-radius: 50%;
+}
+
+img:nth-child(2){
+    max-width: 130px;
+    vertical-align: -.5cm;
+}
+
+img:nth-child(4){
+    max-width : 80px;
+}

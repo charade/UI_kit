@@ -1,0 +1,67 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: white;
+    font-size : 2rem;
+    font-weight : lighter;
+    width: 98%;
+}
+
+p img{
+    width : 40px;
+    vertical-align: -.4cm; 
+}
+
+span{
+    color : rgba(17, 0, 255, 0.76);
+}
+
+.banner{
+    height : 100vh;
+    background-image: url('./banner.jpg');
+    background-size: cover;
+    background-position: bottom ;
+    background-repeat: no-repeat;
+    padding: 20px 15px;
+    height : 400px;
+    position: relative;
+
+}
+
+h1{
+    font-size: 5rem;
+    color: rgba(167, 162, 162, 0.178);
+    text-shadow: -5px 4px 10px black;
+}
+
+h2{
+    color:wheat;
+}
+
+h3{
+    color:rgba(255, 255, 255, 0.74);
+   font-size: 2.3rem;
+    
+}
+
+
+
+h2::first-letter{
+    text-shadow: 0 0 10px wheat;
+    font-size: 5.5rem;
+}
+
+button{
+    border-radius: 8px;
+    background: rgb(114, 124, 212);
+    font-size: 1.7rem;
+    height : 50px;
+    color:white;
+    width: 88px;
+    position: absolute;
+    top : 80%;
+    left : 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,21 @@
+body{
+    padding-top : 20%;
+    background-color: rgba(0, 0, 0, 0.781);
+    margin : 0;
+}
+
+footer{
+    background-color: whitesmoke;
+    padding-top : 170px;
+    height :150px;
+    padding-left: 5%;
+}
+
+img{ 
+    max-width : 40px;
+    margin-right : 4%;
+}
+
+img:nth-child(1),img:nth-child(2),img:nth-child(4),img:nth-child(5){
+    opacity : 0.4;
+}
